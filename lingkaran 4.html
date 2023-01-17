@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <script type="text/javascript">
+            function luas(){
+            jari-jari + document.getElementById("jari-jari").value;
+            Luas = 3.14*jari*jari;
+            document.getElementById("luas").value =  Luas;
+            }
+        </script>
+            
+    </head>
+    <style>
+        body {
+            background-image : url("image.png") , url("bunga.jpeg");
+            background-color:#00aeff;
+        }
+    </style>
+    <title>Program</title>
+</head>
+
+<body> 
+
+    <h1>Luas Lingkaran</h1>
+    <hr width="20%" align="left">
+    <p>Hitung Luas lingkaran Berikut</p>
+
+    <table border="2" style="center; color:rgb(0, 81, 255)">
+    <body>  
+                          
+        <tr>
+            <td colspan="2">Luas Lingkaran</td>
+        </tr>
+
+        <tr>
+            <td>Jari-jari</td>
+            <td><input type="text" id="Jari-jari" name="Jari-jari"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><input type="button" id="hitung" name="hitung" value="Hitung" onclick="luas()";></td>
+        </tr>
+
+        <tr>
+            <td>Luas</td>
+            <td><input type="text" id="luas" name="luas"></td>
+        </tr>
+    
+    </table>
+            </div>
+
+        </body>
+        
+    </html>
